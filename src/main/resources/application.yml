@@ -1,0 +1,20 @@
+server:
+  servlet:
+    context-path: /api
+    session:
+      cookie:
+        max-age: 36000
+  port: 8090
+spring:
+  application:
+    name: source-BI
+  datasource:
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/source_BI
+knife4j:
+  enable: true
+mybatis-plus:
+  configuration:
+    map-underscore-to-camel-case: false
