@@ -18,3 +18,7 @@ knife4j:
 mybatis-plus:
   configuration:
     map-underscore-to-camel-case: false
+yuapi:
+  client:
+    access-key: rlu4xzxnb6yjohncderoadutxb3nb2kq
+    secret-key: e25t7bn1bdcgufjizn8yj4618gxxiegh
